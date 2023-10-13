@@ -1,0 +1,225 @@
+/* ESTILO GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-self: end;
+}
+
+main section.especialidades .space-between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h2.titulo{
+    color: #0beec8;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #0beec8;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header .logo{
+    border-radius: 8px;
+}
+
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #0BEECA;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #0BEECA;
+}
+
+
+
+/* ESTILO DO TOPO*/
+
+.topo-do-site .txt-apresentação h1{
+    color: #0beec8;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.topo-do-site .txt-apresentação p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main .minha-foto{
+    border-radius: 8px;
+}
+
+main section.topo-do-site {
+    padding: 40px 4%;
+}
+
+main section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 200px;
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+
+main section.especialidades {
+    padding: 40px 4%;
+}
+
+main .especialidades .certificados-box{
+    color: #fff;
+    padding: 80px 120px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+main .especialidades .certificados-box p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+main .especialidades .certificados-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff44;
+}
+
+main .especialidades .em-desenvolvimento-box{
+    color: #fff;
+    padding: 80px;
+    white-space: nowrap;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+main .especialidades .em-desenvolvimento-box p{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+main .especialidades .em-desenvolvimento-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff44;
+}
+
+main .especialidades .em-desenvolvimento-box i{
+    font-size: 50px;
+    color: #0beec8;
+}
+
+main .especialidades .certificados-box i{
+    font-size: 50px;
+    color: #0beec8;
+}
+
+main .especialidades .certificados-box h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+main .especialidades .em-desenvolvimento-box h3{
+    font-size: 32px;
+    white-space: nowrap;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+/* ESTILO RODA PÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .linha-footer{
+    padding: 20px 0px;
+}
+
+.borda{
+    border-top: 2px solid #0beec8;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #0beec8;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2;
+}
+
+footer .linha-footer p i{
+    color: #0beec8;
+    font-size: 20px;
+}
+
+footer .linha-footer p a{
+    color: #fff;
+}
